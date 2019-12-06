@@ -71,6 +71,40 @@ p {
     margin: 0 auto;
 }
 
+/* Code for Header */
+
+header {
+	height: 60px;
+	vertical-align: top;
+    display:flex;
+    /* margin-bottom: 30px; */
+}
+
+header nav {
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: flex-end;
+
+}
+
+header nav a {
+	/* margin: 20px; */
+	color: black;
+	text-decoration: none;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+/* Code for Top Image */
+
+.jumbo-image{
+    /* display: flex; */
+    margin: 30px 0px 20px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
