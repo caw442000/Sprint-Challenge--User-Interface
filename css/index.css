@@ -222,4 +222,62 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Code for About Page */
+/* Beginning of Code for About Page */
+
+/* About Page Container */
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Top Section */
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content .about-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* Middle Section */
+
+.middle-about-content{
+    display:flex;
+    width: 30%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.middle-about-content .middle-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-about-content h2 {
+    margin: 10px 0px 15px 0px;
+
+}
+
+.middle-about-content button {
+    margin: 15px 0px 20px 0px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+
+}
+
+
+
+/* .middle-about-content .middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
