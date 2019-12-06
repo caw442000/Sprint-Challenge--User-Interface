@@ -250,7 +250,7 @@ footer nav a {
 
 .middle-about-content{
     display:flex;
-    width: 30%;
+    /* width: 800px; */
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -258,6 +258,7 @@ footer nav a {
 .middle-about-content .middle-about {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 48%;
 }
 
 .middle-about-content h2 {
@@ -274,6 +275,20 @@ footer nav a {
 
 }
 
+/* Bottom Section */
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-bottom-content .about-container {
+    width: 100%;
+    padding: 0 1%;
+    padding: 20px 0px;  
+}
 
 
 /* .middle-about-content .middle-about {
